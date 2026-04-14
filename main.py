@@ -665,7 +665,7 @@ fig.update_layout(
 )
 
 fig.update_traces(
-            hovertemplate="<b>%{x}</b><br>Categorie: %{fullData.name}<br>Correlatie: %{y:.2f}%<extra></extra>"
+            hovertemplate="<b>%{x}</b><br>Categorie: %{fullData.name}<br>Correlatie: %{y:.2f}<extra></extra>"
         )
 
 link_cbs = "https://opendata.cbs.nl/#/CBS/nl/navigatieScherm/thema?themaNr=83350"
