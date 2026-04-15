@@ -944,6 +944,21 @@ with st.expander("Meer informatie"):
     " met veel variabelen. De kracht van het model is het voorkomen van 'overfitting' (het te sterk afstemmen van het model op de trainingsdata).")
 
 
+st.html(
+    """
+    <div style="
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        color: gray;
+        font-family: sans-serif;
+        font-size: 12px;
+        z-index: 1000;
+    ">
+        Made with ♥️ by <a href="https://www.micktijdeman.nl/" target="_blank" style="color: gray;">Mick</a>
+    </div>
+    """
+)
 
 
 
